@@ -1,0 +1,12 @@
+.navbar-head{
+    display: flex;
+    width: 100%;
+    background-color: #9DBF89;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.options{
+    display: flex;
+    /* justify-content: center; */
+}

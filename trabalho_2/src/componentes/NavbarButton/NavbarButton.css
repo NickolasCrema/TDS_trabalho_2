@@ -1,0 +1,17 @@
+.button{
+    display:inline;
+    background-color: #9DBF89;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 15px;  
+}
+
+.button:hover{
+    background-color: #4E6143;
+    color: #d4d4d4;
+}
+
+.span-text{
+    padding-left: 10px;
+    text-align: left;
+}
