@@ -1,26 +1,26 @@
 .search-bar{
-    /* position: relative; */
-    /* align-items: end; */
-    content: box;
+    position: relative;
+    align-items: end;
     background-color: #9DBF89;
     padding-top: 28px;
-    /* justify-content: end; */
+    justify-content: end;
 }
 
-/* .search-bar section{
-    position: absolute; 
+.search-bar section{
+    position: absolute;
     right: 0;
     bottom: 0;
     margin-right: 15px;
     padding-bottom: 10px;
-} */
+}
 
 .search-bar input{
-    /* content: flex; */
+    content: flex;
     border: none;
-    /* border-radius: 15px;
+    border-radius: 15px;
     padding: 3px 10px;
-    margin-right: 5px; */
+    margin-right: 5px;
+    width: 15vw;
 }
 
 .search-bar input:focus{

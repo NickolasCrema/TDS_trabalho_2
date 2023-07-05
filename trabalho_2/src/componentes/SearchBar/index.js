@@ -4,13 +4,13 @@ import './SearchBar.css';
 const SearchBar = (props) => {
     return (
         <div className='search-bar'>
-            {/* <section> */}
+            <section>
 
                 <input label={props.label}></input>
                 <button>
                     <SearchHeart size={24}/>
                 </button>
-            {/* </section> */}
+            </section>
         </div>
     )
 }
