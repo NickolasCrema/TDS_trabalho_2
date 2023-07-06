@@ -1,12 +1,17 @@
 
-import Footer from "./componentes/Footer";
-import Header from "./componentes/Header";
+import HomeScreen from "./componentes/HomeScreen";
+import * as React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import LoginRegisterScreen from "./componentes/LoginRegisterScreen";
 
 function App() {
   return (
     <div>
-      <Header/>
-      <Footer/>
+      <Routes>
+        <Route path="/" exact element={<HomeScreen/>}/>
+        <Route path="LoginOrRegister" exact element={<LoginRegisterScreen/>}/>
+      </Routes>
+      {/* <HomeScreen/> */}
     </div>
   );
 }

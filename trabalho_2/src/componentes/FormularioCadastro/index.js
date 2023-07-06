@@ -2,8 +2,6 @@ import './FormularioCadastro.css';
 
 const FormularioCadastro = (props) => {
 
-    const {user, password} = props.children
-
     return (
         <div className='card-formulario'>
             <label>
