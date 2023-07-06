@@ -1,0 +1,35 @@
+.login-register-body{
+    display: block;
+    width: 100%;
+    border: 1px solid;
+    height: 100vh;
+    background-color: #e4e4e4;
+}
+
+.login-register-body .title{
+    display: block;
+    padding: 10px;
+    padding-top: 3%;
+    padding-bottom: 0;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 10%;
+}
+
+.login-register-body .subtitle{
+    display: block;
+    padding: 10px;
+    padding-top: 0;
+    font-size: 16px;
+    margin-left: 10%;
+}
+
+.login-register-body .bloco{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: end;
+    padding: 10px 10%;
+    margin-top: 25px
+    /* border: 1px solid; */
+}
