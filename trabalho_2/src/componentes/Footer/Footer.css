@@ -1,0 +1,47 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #4E6143;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .info-juridica{
+    color: #cecece;
+    padding: 10px 10px;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.footer .links{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+.links .texto{
+    display: flex;
+    color: #cecece;
+    padding: 10px 10px;
+    font-size: 14px;
+    background-color: #4E6143;
+    border: none;
+}
+
+.links .texto:hover{
+    color: #fff;
+}
+
+.links .rede-social{
+    size: 24px;
+    padding: 8px 10px;
+    color: #cecece;
+    background-color: #4E6143;
+    border: none;
+}
+
+.links .rede-social:hover{
+    color: #fff
+}
+

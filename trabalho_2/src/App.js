@@ -1,12 +1,16 @@
 
-import NavbarHead from "./componentes/NavbarHead";
-import SearchBar from "./componentes/SearchBar";
-// import { ChatHeart } from "react-bootstrap-icons";
+import CampoFormulario from "./componentes/CampoFormulario";
+import Footer from "./componentes/Footer";
+import Header from "./componentes/Header";
+
 function App() {
   return (
     <div>
-      <NavbarHead />
-      <SearchBar label='Pesquisar...'/>
+      <Header/>
+      <CampoFormulario label="Usuário" placeholder="Digite seu e-mail ou login"/>
+      <CampoFormulario label="Usuário" placeholder="Digite seu e-mail ou login"/>
+      <CampoFormulario label="Usuário" placeholder="Digite seu e-mail ou login"/>
+      <Footer/>
     </div>
   );
 }

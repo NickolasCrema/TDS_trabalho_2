@@ -1,37 +1,57 @@
-.search-bar{
-    position: relative;
-    align-items: end;
-    background-color: #9DBF89;
-    padding-top: 28px;
-    justify-content: end;
+.bottom-bar{
+    width: 100%;
+    background-color: #4E6143;
+    height: 50px;
+    box-shadow: 2px 2px 4px 0px #00000040;
 }
 
-.search-bar section{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    margin-right: 15px;
-    padding-bottom: 10px;
+.bottom-bar .align-side-a-side{
+    display: flex;
+    justify-content: space-between;
 }
 
-.search-bar input{
-    content: flex;
+.align-side-a-side .text1{
+    font-size: 16px;
+    color: #c3c3c3;
+    padding: 2.5px;
+}
+
+.text1 .text2{
+    font-size: 12px;
+    color: #c3c3c3;
+}
+
+.align-side-a-side .truck{
+    margin: 12px 15px;
+    color: #c3c3c3;
+}
+
+.align-side-a-side input{
     border: none;
+    height: 30px;
+    margin: 10px;
+    width: 200px;
     border-radius: 15px;
-    padding: 3px 10px;
-    margin-right: 5px;
-    width: 15vw;
-}
+    padding: 12px 15px;
+    padding-bottom: 15px;
+    background-color: #e3e3e3;
+    box-shadow: 2px 2px 4px 0px #00000040;
+}   
 
-.search-bar input:focus{
+.align-side-a-side input:focus{
     outline-color: #4E6143;
+    
 }
 
-.search-bar button{
-    border:none;
-    background-color: #9DBF89;
+.align-side-a-side button{
+    background-color: #4E6143;
+    color: #c3c3c3;
+    border: none;
+    margin: 0 -5px;
+    margin-right: 20px;
 }
 
-.search-bar button:hover{
-    color: #818181
+.align-side-a-side button:hover{
+    color: #fff;
 }
+
