@@ -1,0 +1,67 @@
+[
+  {
+    "id": "001",
+    "name": "Produto 1" ,
+    "size": "100g",
+    "price": 39.99,
+    "newPrice": 20.00,
+    "image": "./imagens/produto1.png"
+  },
+  {
+    "id": "002",
+    "name": "Produto 2",
+    "size": "100g",
+    "price": 39.99,
+    "newPrice": 20.00,
+    "image": "./imagens/produto2.png"
+  },
+  
+  { 
+    "id": "003",
+    "name": "Produto 3",
+    "size": "100g",
+    "price": 39.99,
+    "newPrice": 20.00,
+    "image": "./imagens/produto3.png"
+  },
+  {
+    "id": "004",
+    "name": "Produto 4",
+    "size": "100g",
+    "price": 39.99,
+    "newPrice": 20.00,
+    "image": "./imagens/produto4.png"
+  },
+  {
+    "id": "005",
+    "name": "Produto 5",
+    "size": "100g",
+    "price": 39.99,
+    "newPrice": 20.00,
+    "image": "./imagens/produto5.png"
+  },
+  {
+    "id": "006",
+    "name": "Produto 6",
+    "size": "100g",
+    "price": 39.99,
+    "newPrice": 20.00,
+    "image": "./imagens/produto6.png"
+  },
+  {
+    "id": "007",
+    "name": "Produto 7",
+    "size": "100g",
+    "price": 39.99,
+    "newPrice": 20.00,
+    "image": "./imagens/produto7.png"
+  },
+  {
+    "id": "008",
+    "name": "Produto 8",
+    "size": "100g",
+    "price": 39.99,
+    "newPrice": 20.00,
+    "image": "./imagens/produto8.png"
+  }
+]
