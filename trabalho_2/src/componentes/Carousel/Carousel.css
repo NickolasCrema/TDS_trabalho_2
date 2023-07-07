@@ -1,0 +1,113 @@
+.containerBlock{
+    width: 100%;
+    display: grid;
+    margin: 0 0 20px 0;
+    grid-template-columns: 0.1fr 10fr 0.1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerBlock .buttons {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.containerBlock .buttons button {
+    width: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.containerBlock .carousel {
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.containerBlock .carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.containerBlock .carousel .item {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    width: 15vw;
+    border-radius: 16px;
+    flex: none;
+}
+
+.containerBlock .carousel .item .image{
+    position: relative;
+}
+
+.containerBlock .carousel .item .image .heartbtn{
+    position: absolute; 
+    right: 5%;
+    color: black;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+    
+.containerBlock .carousel .item .image .heartbtn :hover {
+    color: red;
+} 
+
+.containerBlock .carousel .item .image img {
+    width: 100%;
+    height: 55%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.containerBlock .carousel .item .info {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.containerBlock .carousel .item .info span {
+    text-align: center;
+    color: #1e1e1e;
+}
+
+.containerBlock .carousel .item .info .name {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+    color: #31800d;
+}
+
+.containerBlock .carousel .item .info .price {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #f69d31;
+}
+
+.containerBlock .carousel .item .info .size {
+    font-size: 1.1rem;
+}
+
+.containerBlock .carousel .item .info .parcel {
+    font-size: 1.2rem;
+    display: inline-block;    
+    text-align: center;
+
+}
+
+.containerBlock .carousel .item .info .parcel .newPrice {
+    width: 50%;
+    color: #eb8407;
+    margin: 0;
+    justify-content: center;
+}
+
+.containerBlock .carousel .item .info .parcel .divide {
+    width: 50%;
+    margin: 0;
+}
+
