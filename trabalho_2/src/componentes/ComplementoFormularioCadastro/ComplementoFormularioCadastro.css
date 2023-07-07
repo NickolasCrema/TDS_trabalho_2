@@ -5,27 +5,10 @@
     padding: 20px 5%;
 }
 
-.display-70{
-    --width: 70%;
-    --margin: 0 0 0 0;
-}
-
-.display-30{
-    --width: 30%;
-    --margin: 0 0 0 2%;
-}
-
-.display-50{
-    --width: 50%;
-}
-
 .complemento-formulario-cadastro .display-inline{
     display: inline-block;
-    border: 1px solid;
-    width: var(--width);
-    margin: var(--margin);
+    width: 50%;
 }
-
 
 .complemento-formulario-cadastro .block{
     display: block;
