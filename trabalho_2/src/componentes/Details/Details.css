@@ -1,0 +1,96 @@
+
+.containerProduct{
+    height: 100vh;
+    justify-content: space-between;
+    display: flex;
+}
+
+.containerProduct .image{
+    padding: 10px;
+    margin: 5% 0;
+    display: inline-block;
+    max-width: 100%;
+    margin-left: 10%;
+}
+
+.containerProduct .info{
+    padding: 10px;
+    margin: 5% 0;
+    margin-right: 10%;
+    width: 60%;
+    height: auto;
+    display: inline-block;
+}
+
+.containerProduct .info span {
+    text-align: center;
+    color: #000000;
+    font-size: 0.8rem;
+    margin: 10% 0 0 0;
+}
+
+.containerProduct .btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerProduct .btns button{
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #9DBF89;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2% 0;
+    transition: 0.3s;
+    box-shadow: 2px 2px 4px 0px #00000040;
+}
+
+.containerProduct .btns button:hover{
+    font-size: 1.4rem;
+    background-color: #4E6143;
+    color: #d2e4c7;
+}
+
+.containerProduct  .info .name {
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin: 10px 0 0 0;
+    color: #31800d;
+}
+
+.containerProduct .info .productId{
+    color:#6e6e6e;
+    margin-bottom: 1.5%;
+}
+
+.containerProduct .info .productId .code{
+    color:#6e6e6e;
+}
+
+.containerProduct .info .review, .containerProduct .info .detail, .containerProduct .info .size, .containerProduct .info .divide  {
+    font-size: 1.1rem;
+    margin: 1% 0 1.5% 0;
+}
+
+.containerProduct  .info .detailTxt {
+    font-size: 1rem;
+    margin-bottom: 1%;
+    text-align: justify;
+}
+
+.containerProduct  .info .sizeTxt {
+    font-size: 1rem;
+}
+
+.containerProduct  .info .price {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #f69d31;
+}
+
+.containerProduct  .info  .newPrice {
+    font-size: 1.2rem;
+    justify-content: center;
+    color: #eb8407;
+}

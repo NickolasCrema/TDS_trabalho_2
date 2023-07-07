@@ -7,6 +7,10 @@
     align-items: center;
 }
 
+.containerBlock button{
+    border:none;
+}
+
 .containerBlock .buttons {
     text-align: center;
     font-size: 2rem;
@@ -38,6 +42,11 @@
     width: 15vw;
     border-radius: 16px;
     flex: none;
+    box-shadow: 2px 2px 4px 0px #00000040;
+}
+
+.containerBlock .carousel .item:hover{
+    background-color: #e3e3e3;
 }
 
 .containerBlock .carousel .item .image{
@@ -48,7 +57,7 @@
     position: absolute; 
     right: 5%;
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     cursor: pointer;
 }
     
@@ -73,27 +82,27 @@
 .containerBlock .carousel .item .info span {
     text-align: center;
     color: #1e1e1e;
+    font-size: 0.8rem;
 }
 
 .containerBlock .carousel .item .info .name {
-    font-size: 1.7rem;
-    font-weight: bold;
+    font-size: 1.2rem;
     margin: 10px 0 0 0;
     color: #31800d;
 }
 
 .containerBlock .carousel .item .info .price {
-    font-size: 1.7rem;
+    font-size: 1.1rem;
     font-weight: bold;
     color: #f69d31;
 }
 
 .containerBlock .carousel .item .info .size {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .containerBlock .carousel .item .info .parcel {
-    font-size: 1.2rem;
+    font-size: 1rem;
     display: inline-block;    
     text-align: center;
 

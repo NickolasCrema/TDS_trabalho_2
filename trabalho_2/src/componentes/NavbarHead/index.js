@@ -10,7 +10,9 @@ const NavbarHead = () => {
             <div className='options'>
                 <NavbarButton icon={<House size={36}/>} texto='Página Inicial' routePath='/'/>
                 <NavbarButton icon={<Cart  size={36}/>} texto="Carrinho" />
-                <NavbarButton icon={<ChatHeart size={36}/>} texto="Central de Atendimento" />
+                <button className='btn' onClick={() => { window.location.href = "http://wa.me/554599873049"; } }>
+                    <NavbarButton icon={<ChatHeart size={36}/>} texto="Central de Atendimento" />
+                </button>
                 <NavbarButton icon={<Person size={36}/>} texto='Login ou Cadastro' routePath='/LoginOrRegister' />
             </div>
         </div>
