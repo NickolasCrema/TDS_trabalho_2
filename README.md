@@ -18,13 +18,13 @@ O intuito do trabalho era aplicar na prática conceitos vistos em sala de aula, 
 ---
 
 <div>
-  <h3>Página de login/registro</h3>
+  <h3>Página de Login/Registro</h3>
   <img src='https://github.com/NickolasCrema/imagens_readmes/blob/main/Trabalho_2_TDS/login-register.png?raw=true' width=900px/>
 </div>
 
 ---
 
 <div>
-  <h3>Página de registro</h3>
+  <h3>Página de Registro</h3>
   <img src='https://github.com/NickolasCrema/imagens_readmes/blob/main/Trabalho_2_TDS/register.png?raw=true' width=900px/>
 </div>
